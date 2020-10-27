@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Nodes/CrewmateButton.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/crewmate-red.png" type="Texture" id=2]
+
+[node name="Crewmate" type="TextureButton" groups=[
+"CrewButton",
+]]
+margin_right = 99.0
+margin_bottom = 83.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource( 2 )
+stretch_mode = 5
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
